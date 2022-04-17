@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Canvas>
+            <Button x:Name="RectangleDraw" Content="Rectangle" Height="50" Width="75" Canvas.Left="20" Canvas.Top="25"/>
+            <Button x:Name="EllipseDraw" Content="Ellipse" Height="50" Width="75" Canvas.Left="115" Canvas.Top="25" Click="EllipseDraw_Click"/>
+            <Button x:Name="TriangleDraw" Content="Triangle" Height="50" Width="75" Canvas.Left="20" Canvas.Top="95"/>
+            <Button x:Name="LineDraw" Content="Line" Height="50" Width="75" Canvas.Left="20" Canvas.Top="165"/>
+            <Button x:Name="PolygonDraw" Content="Polygon" Height="50" Width="75" Canvas.Left="115" Canvas.Top="95"/>
+            <Button x:Name="BrokenLineDraw" Content="Broken Line" Height="50" Width="75" Canvas.Left="115" Canvas.Top="165"/>
+        </Canvas>
     </Grid>
 </Window>

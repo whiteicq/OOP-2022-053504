@@ -24,5 +24,10 @@ namespace lab_2
         {
             InitializeComponent();
         }
+
+        private void EllipseDraw_Click(object sender, RoutedEventArgs e)
+        {
+            // сделать невидимый на канве флаг который будет переключать состояния мыши (рисование/курсор).
+        }
     }
 }
